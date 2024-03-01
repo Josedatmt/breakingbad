@@ -16,10 +16,10 @@ table {
   text-align: center;
 }
 .merged-cell {
-    border-bottom: none; /* Elimina el borde inferior */
+    border-bottom: none; 
   }
   .merged-cell {
-    border-bottom: none; /* Elimina el borde inferior */
+    border-bottom: none; 
   }
   .full-width {
     width: 100%;
@@ -56,10 +56,9 @@ table {
 
   .tablabr{
 
-    border-collapse: separate;/* Esto asegura que haya espaciado entre las celdas */
-    border-spacing: 1.95px; /* Define el espaciado entre las celdas */
-    background-color: rgb(27, 25, 25); /* Define el color de fondo de la tabla */
-    /* Ajusta el ancho de la tabla según sea necesario */
+    border-collapse: separate;
+    border-spacing: 1.95px; 
+    background-color: rgb(27, 25, 25); 
     font-family:Arial, Helvetica, sans-serif
   }
   .ocultar{
