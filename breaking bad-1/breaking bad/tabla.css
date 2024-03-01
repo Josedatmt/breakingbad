@@ -1,0 +1,116 @@
+table {
+    width: 790px;
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+  }
+  
+  td[colspan="2"] {
+  height: 90px;
+  text-align: center;
+}
+.merged-cell {
+    border-bottom: none; /* Elimina el borde inferior */
+  }
+  .merged-cell {
+    border-bottom: none; /* Elimina el borde inferior */
+  }
+  .full-width {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .celdapistacho{
+    background-color: greenyellow;
+  }
+  .celdalila{
+    background-color: rgb(188, 147, 227);
+  }
+  .celdaverde{
+    background-color: rgb(121, 163, 7);
+  }
+  .celdaverdeoscuro{
+    background-color: rgba(74, 112, 3, 0.479);
+  }
+  .amarillo{
+    background-color: rgb(203, 220, 48);
+  }
+  .gris {
+    background-color: rgb(151, 163, 133);
+  }
+  .verdegris{
+    background-color: rgba(70, 116, 43, 0.728);
+  }
+  .blanco{
+    background-color: whitesmoke;
+  }
+  .amarilloclaro{
+    background-color: rgb(195, 223, 95);
+  }
+
+  .tablabr{
+
+    border-collapse: separate;/* Esto asegura que haya espaciado entre las celdas */
+    border-spacing: 1.95px; /* Define el espaciado entre las celdas */
+    background-color: rgb(27, 25, 25); /* Define el color de fondo de la tabla */
+    /* Ajusta el ancho de la tabla según sea necesario */
+    font-family:Arial, Helvetica, sans-serif
+  }
+  .ocultar{
+    border: none; 
+  }
+  .letra{
+    font-family:Arial, Helvetica, sans-serif
+    
+  }
+
+  .fuentegrande {
+    font-size: 30px;
+    font-weight: bold;
+    color: #302e2e;
+}
+
+
+.fuentepequeña {
+    font-size: 8px;
+    color: #181717;
+    font-weight: bold;
+}
+.tabla{
+    background-color: rgb(102, 114, 57);
+}
+
+#miTabla {
+    
+ width: 690px;
+ border-collapse: collapse;
+ border-collapse: separate;
+ border-spacing: 1.95px;   
+ background-color: rgb(27, 25, 25);
+}
+
+
+#miTabla td {
+    border: 1px solid black; 
+    padding: 5px; 
+    text-align: center; 
+    background-color: rgba(204, 220, 28, 0.753);
+    
+}
+#miTabla br{
+    
+    background-color: rgb(27, 25, 25); 
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#miTabla img {
+    max-width: 55px; 
+    max-height: 55px; 
+}
+
