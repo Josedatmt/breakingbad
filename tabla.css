@@ -24,7 +24,7 @@ table {
   .full-width {
     width: 100%;
     height: auto;
-    display: block;
+  
   }
   .celdapistacho{
     background-color: greenyellow;
